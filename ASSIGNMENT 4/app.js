@@ -1,7 +1,7 @@
 // 1. Case Conversion and Length
 console.log("Case Conversion and Length");
 let fullName = prompt("Enter your full name:");
-console.log("1. Full Name Length " + fullName.length);
+console.log("Full Name Length " + fullName.length);
 console.log("Upper Case " + fullName.toUpperCase());
 console.log("Lower Case " + fullName.toLowerCase());
 console.log("-----------------------------------------------------");
@@ -24,7 +24,7 @@ console.log("-----------------------------------------------------");
 console.log("Replacing Text");
 let setence = "This is a bad example That was a bad decision So bad!";
 let updatedsentence = setence.replace(/bad/g, "good");
-console.log("3. Replaced Text");
+console.log("Replaced Text");
 console.log("Before " + setence);
 console.log("After " + updatedsentence);
 
